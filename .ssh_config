@@ -1,0 +1,20 @@
+# CAEN
+Host umich
+ HostName login.engin.umich.edu
+ User spihlman
+ Compression yes
+
+# Raspbery Pi 3b used as master node in cluster
+Host rpi3
+ HostName master
+ User adam
+
+# Raspberry Pi Zero W used as worker node in cluster
+Host rpi01
+ Hostname worker1
+ User adam
+
+# Raspberry Pi Zero W used as worker node in cluster
+Host rpi02
+ Hostname worker2
+ User adam
